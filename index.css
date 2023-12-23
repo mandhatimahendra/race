@@ -1,0 +1,168 @@
+.bg-container{
+    background-size:cover;
+    width:100vw;
+    min-height:100vh;
+    background-color:#d4c9ae;
+}
+*{
+    margin:0px;
+    padding:0px
+}
+.main-heading{
+    font-size:22px;
+    font-family:"Arial";
+    text-align: center;
+    padding-top:20px;
+}
+.tabs-container{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.men-list{
+    width:150px;
+    height:30px;
+    background-color:#f7f0dc;
+    text-align: center;
+    font-size:15px;
+    font-family:"Arial";
+    padding:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:15px 30px;
+    border-radius: 4px;
+}
+.women-list{
+    width:150px;
+    height:30px;
+    background-color:#f7f0dc;
+    text-align: center;
+    font-size:15px;
+    font-family:"Arial";
+    padding:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:15px 30px;
+    border-radius: 4px;
+}
+.kids-list{
+    width:150px;
+    height:30px;
+    background-color:#f7f0dc;
+    text-align: center;
+    font-size:15px;
+    font-family:"Arial";
+    padding:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:15px 30px;
+    border-radius: 4px;
+}
+.button-1{
+    background-color:#f7f0dc;
+    border-width: 0px;
+    color:"black"
+}
+.men-list-container{
+    list-style-type: none;
+    width:100%;
+}
+.women-list-container{
+    list-style-type: none;
+    display: flex;
+
+}
+.kids-list-container{
+    list-style-type: none;
+    display: flex;
+
+}
+.image-container{
+    background-color:#faedcd;
+    width:20%;
+    height:60%;
+    margin-right:10px;
+}
+.page-container {
+    background-color: grey;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-style {
+    height: 250px;
+    width: 200px;
+    border: 0px solid transparent;
+    border-radius: 2px;
+}
+
+
+.span-style {
+    color: red;
+    font-weight: bold;
+}
+
+.card2 {
+    display: flex;
+}
+
+.card-container {
+    background-color: transparent;
+    width:18%;
+    height:70%;
+    margin-left:80px;
+    margin-top:50px;
+}
+
+.inner-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.heading-element {
+    font-size: 20px;
+    color: #400602;
+}
+
+.para {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.price-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.deal-price{
+    font-weight: bold;
+}
+
+
+.compare-price {
+    color: grey;
+    text-decoration: line-through;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 5px;
+}
